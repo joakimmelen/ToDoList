@@ -1,0 +1,76 @@
+.container {
+  display: flex;
+}
+
+.input {
+  width: 75%;
+  height: 50%;
+  margin-right: 0;
+  background: #fff3eb;
+  color: #111f1e;
+  padding: 10px;
+  border: none;
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  outline: none;
+  text-align: center;
+  position: relative;
+  top: 0px;
+}
+
+.addBtn {
+  width: 25%;
+  /* height: 50%; */
+  padding: 10px;
+  margin-left: 0;
+  background: #24413f;
+  color: #ffdbc4;
+  text-align: center;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.4s;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  border: none;
+}
+
+.addBtn:hover {
+  background-color: #ffdbc4;
+  color: #24413f;
+}
+
+.saveBtn {
+  padding: 10px;
+  margin: 5px 2px;
+  background: #24413f;
+  color: #ffdbc4;
+  text-align: center;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: 0.4s;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: none;
+}
+
+.saveBtn:hover {
+  background-color: #ffdbc4;
+  color: #24413f;
+}
+
+.removeBtn {
+  padding: 10px;
+  margin: 5px 2px;
+  background: #24413f;
+  color: #ffdbc4;
+  text-align: center;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: 0.4s;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: none;
+}
+
+.removeBtn:hover {
+  background-color: #d84b4b;
+  color: #24413f;
+}

@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  /* border: 1px solid #c3ae8b; */
+  background-color: #24413f;
+  color: #ffdbc4;
+  user-select: none;
+  overflow-y: auto;
+}
+
+.titleText {
+  font-size: 2rem;
+  padding: 5px 100px;
+  /* letter-spacing: 0.5px; */
+}
+
+.remove {
+  background-color: #24413f;
+  border: none;
+  font-size: 1.2rem;
+}
+
+.remove:hover {
+  background-color: #979d9d84;
+  cursor: pointer;
+}
+
+.markedDone {
+  text-decoration: line-through;
+  color: #634d40;
+  transition: 0.3s;
+}
